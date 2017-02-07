@@ -1,5 +1,5 @@
 # Slaho
-Slaho (short for **SL**ack Web**HO**ok), is a small PHP5 library for posting messages to Slack, using their webhooks.
+Slaho (short for **SLA**~~ck~~ ~~Web~~**HO**~~ok~~), is a small PHP5 library for posting messages to Slack, using their webhooks.
 
 It is meant to be very easy to use. I've had experience with several other Slack implementations and they were quite clumsy and overdressed for my tast. This is meant to be used only for posting messages using Slack webhooks. 
 
