@@ -34,7 +34,7 @@ If you have the whole JSON data that you need to post to Slack, you can do it by
 ## Callbacks for posting
 The messages are send with HTTP POST requests towards the Slack webhooks. This is a very basic and common thing nowadays, but still it might offer some challenges denepding on the environment in whcih it is deployed.
 
-In Slaho there are two built-in methods that are used to send the POST requests: one used the `curl` PHP extension (if it is installed), and the other used the `curl` binary (which it attempts to on your system). This is all done under the hood and you do not have to do anything. 
+In Slaho there are two built-in methods that are used to send the POST requests: one used the `curl` PHP extension (if it is installed), and the other used the `curl` binary (which it attempts to find on your system). This is all done under the hood and you do not have to do anything. 
 
 However, you might want to  use a different mechanism to do the POST request. In Slaho there is a way to set your own callback to do that. Here's an example where I put a new callback which I am going to use for debugging - instead of posting the message, it will print it out:
 
